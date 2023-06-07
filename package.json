@@ -1,0 +1,10 @@
+{
+	"name": "ieskaite",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"scripts": {
+		"build": "cd backend && yarn build",
+		"start": "cd backend && yarn start"
+	}
+}

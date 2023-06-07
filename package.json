@@ -6,5 +6,8 @@
 	"scripts": {
 		"build": "cd backend && yarn build",
 		"start": "cd backend && yarn start"
+	},
+	"engines": {
+		"node": ">=14 <15"
 	}
 }

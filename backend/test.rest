@@ -1,0 +1,27 @@
+###
+# Create a new note
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+
+{
+  "name": "Test Note 3",
+  "description": "This is a test note"
+}
+
+###
+
+# Get all notes
+GET http://localhost:3001/api/notes
+Content-Type: application/json
+
+###
+
+# Get a specific note by name
+GET http://localhost:3001/api/notes/Test%20Note
+Content-Type: application/json
+
+###
+
+# Delete a note by name
+DELETE http://localhost:3001/api/notes/Test%20Note
+Content-Type: application/json

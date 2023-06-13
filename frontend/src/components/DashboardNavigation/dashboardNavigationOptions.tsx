@@ -1,5 +1,6 @@
 import { IconDefinition } from '@fortawesome/fontawesome-svg-core'
 import {
+  faComputer,
   faDatabase,
   faFilePowerpoint,
   faFileText,
@@ -54,7 +55,22 @@ const dashboardNavigationOptions: DashboardSection[] = [
         to: '/create-pptx'
       },
     ],
-  }
+  },
+  {
+    title: 'JAK uzdevumi',
+    items: [
+      {
+        icon: faComputer,
+        innerText: '1.1. - 1. uzdevums',
+        to: '/uzdevums-1'
+      },
+      {
+        icon: faComputer,
+        innerText: '1.1. - 2. uzdevums',
+        to: '/uzdevums-2'
+      }
+    ],
+  },
 
 ]
 

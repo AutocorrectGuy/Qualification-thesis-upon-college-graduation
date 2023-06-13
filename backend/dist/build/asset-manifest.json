@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.9f610f0c.css",
-    "main.js": "/static/js/main.f1f03ac7.js",
+    "main.css": "/static/css/main.5ebe562f.css",
+    "main.js": "/static/js/main.af1709dc.js",
     "static/media/jakbuilding.png": "/static/media/jakbuilding.3144e8e81e9092876bcd.png",
     "index.html": "/index.html",
-    "main.9f610f0c.css.map": "/static/css/main.9f610f0c.css.map",
-    "main.f1f03ac7.js.map": "/static/js/main.f1f03ac7.js.map"
+    "main.5ebe562f.css.map": "/static/css/main.5ebe562f.css.map",
+    "main.af1709dc.js.map": "/static/js/main.af1709dc.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f610f0c.css",
-    "static/js/main.f1f03ac7.js"
+    "static/css/main.5ebe562f.css",
+    "static/js/main.af1709dc.js"
   ]
 }

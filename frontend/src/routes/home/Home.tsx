@@ -3,6 +3,7 @@ import { faArrowRight, faChevronRight, faPlay, faFileWord } from '@fortawesome/f
 import jakBuldingImg from '../../assets/img/jakbuilding.png'
 import { useState } from 'react'
 import Skeleton from 'react-loading-skeleton'
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   const [imgIsLoaded, setImgIsLoaded] = useState<boolean>(false)
@@ -66,14 +67,14 @@ const Home = () => {
         />
 
         <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
-          <a href="/" className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-violet-700 hover:bg-violet-500 focus:ring-4 focus:ring-violet-900">
+          <Link to="/instruction" className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-violet-700 hover:bg-violet-500 focus:ring-4 focus:ring-violet-900">
             Vairāk info
             <FontAwesomeIcon icon={faArrowRight} className="ml-2 -mr-1 w-5 h-5" fill="currentColor" />
-          </a>
-          <a href="/" className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center rounded-lg border focus:ring-4 text-white border-gray-700 hover:bg-gray-700 focus:ring-gray-800">
+          </Link>
+          <Link to="/create-prompt" className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center rounded-lg border focus:ring-4 text-white border-gray-700 hover:bg-gray-700 focus:ring-gray-800">
             <FontAwesomeIcon icon={faPlay} className="mr-2 w-4 h-4" fill="currentColor" />
             Sākt ģenerēt!
-          </a>
+          </Link>
         </div>
       </div>
     </section >

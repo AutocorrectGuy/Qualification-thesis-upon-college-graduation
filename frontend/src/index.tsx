@@ -12,6 +12,8 @@ import Presentations from './routes/presentations/Presentations'
 import CreatePrompt from './routes/createPrompt/CreatePrompt'
 import SinglePresentation from './routes/singlePresentation/SinglePresentation'
 import Instruction from './routes/instruction/Instruction'
+import Task_1 from './routes/jakTasks/Task_1'
+import Task_2 from './routes/jakTasks/Task_2'
 
 export const router = createBrowserRouter([
   {
@@ -45,6 +47,20 @@ export const router = createBrowserRouter([
         path: '/create-pptx',
         element: <CreatePPTX />
       },
+
+      /**
+       * JAK uzdevumi
+       */
+
+      {
+        path: '/uzdevums-1',
+        element: <Task_1 />,
+      },
+      {
+        path: '/uzdevums-2',
+        element: <Task_2 />
+      },
+
       {
         path: '*',
         element: <NotFoundPage />,

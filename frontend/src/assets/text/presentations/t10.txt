@@ -1,0 +1,26 @@
+[h1]:1. Scope - mainīgo redzamības apgabals (Javascript)
+[p]:JavaScript valodā "scope" apzīmē mainīgo redzamības apgabalu. Tas nosaka, kurā daļā programmas mainīgais ir pieejams vai redzams.
+
+[h1]:2. Globālais scope
+[p]:Globālais scope ir vispārpieņemts mainīgo redzamības apgabals, kas attiecas uz visu programmu. Mainīgie, kas tiek definēti globālajā scope, ir pieejami visā programmā un no jebkuras funkcijas.
+
+[h1]:3. Lokālais scope
+[p]:Lokālais scope ir mainīgo redzamības apgabals, kas ir ierobežots līdz konkrētai funkcijai vai blokam. Mainīgie, kas tiek definēti lokālajā scope, ir pieejami tikai iekšējās funkcijas vai bloka ietvaros.
+
+[h1]:4. Bloku scope
+[p]:Bloku scope tika ieviests ar ES6 un nodrošina redzamību mainīgajiem, kas ir definēti blokās, piemēram, cikla vai nosacījuma blokos. Mainīgie, kas tiek definēti bloku scope, ir pieejami tikai šajā blokā un tā apakšblokos.
+
+[h1]:5. Funkcijas scope
+[p]:Funkcijas scope attiecas uz mainīgajiem, kas ir definēti funkcijās. Mainīgie, kas tiek definēti funkcijas scope, ir pieejami tikai šajā funkcijā un tās iekšējās funkcijās.
+
+[h1]:6. Lexical scope
+[p]:Lexical scope, vai arī "static scope", ir scope veids, kas nosaka mainīgo redzamību, pamatojoties uz to, kur mainīgais tiek definēts programmas teksta rakstīšanas laikā, nevis izpildes laikā.
+
+[h1]:7. Closure un scope
+[p]:Closure ir mehānisms JavaScript, kas nodrošina piekļuvi funkcijas mainīgajiem, pat pēc tam, kad funkcija ir pabeigta izpildes laikā. Tas ir saistīts ar funkcionālo programmu un ievieš jaunu scope līmeni, kas palīdz saglabāt mainīgo vērtības un stāvokli.
+
+[h1]:8. Moduļu scope
+[p]:Moduļu scope ir veids, kā organizēt kodu, izmantojot moduļus. Moduļu scope nodrošina atsevišķu scope katram moduļa failam, kas ļauj izolēt mainīgos un funkcijas, lai novērstu to konfliktu ar citiem moduļiem.
+
+[h1]:9. Izmantošanas ieteikumi
+[p]:Lai izvairītos no nevēlamām problēmām ar mainīgo redzamību, ieteicams rūpīgi pārvaldīt scope un izmantot funkcijas, lai nodrošinātu nepieciešamo redzamības apjomu. Veicot izmaiņas mainīgajos, vienmēr pārliecinieties par to, kāds ir attiecīgā scope un kā tas ietekmēs citus kodā esošos mainīgos.

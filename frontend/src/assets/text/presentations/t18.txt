@@ -1,0 +1,26 @@
+[h1]:1. Ievads
+[p]:Javascript Array klase ļauj glabāt un apstrādāt dažādus dati vienā struktūrā. Tā nodrošina vairākas metodes un funkcijas, kas atvieglo darbu ar masīviem.
+
+[h1]:2. Izveide un inicializācija
+[p]:Lai izveidotu jaunu masīvu, izmantojam `new Array()` vai īsāku sintaksi `[]`. Masīvam var būt jebkura garuma un tajā var glabāt dažādu tipu vērtības.
+
+[h1]:3. Piekļuve elementiem
+[p]:Lai piekļūtu masīva elementiem, izmantojam indeksēšanu ar iekavām. Indekss sākas no 0 un beidzas ar garumu - 1. Piemēram, `masivs[0]` atgriež pirmo elementu.
+
+[h1]:4. Izmaiņas masīvā
+[p]:Masīva elementus var mainīt, piekļūstot tiem pēc indeksa un veicot vēlamās izmaiņas. Piemēram, `masivs[2] = "Jauna vērtība"` aizstāj trešo elementu ar jaunu vērtību.
+
+[h1]:5. Garums un iekšējās metodes
+[p]:Izmantojot `.length` īpašību, var saņemt masīva garumu. Array klasē ir daudz iebūvētu metožu, piemēram, `push()`, `pop()`, `splice()`, kas ļauj veikt dažādas darbības ar masīva elementiem.
+
+[h1]:6. Cikli un iterācija
+[p]:Masīvus var apstrādāt ar cikliem, piemēram, `for` vai `forEach`, lai izietu cauri visiem masīva elementiem un veiktu nepieciešamās darbības.
+
+[h1]:7. Masīva metožu pielietojums
+[p]:Array klases metodes ir ļoti noderīgas dažādu datu apstrādei. Piemēri ietver masīva filtrēšanu, kartēšanu un samazināšanu, lai veiktu aprēķinus vai manipulētu ar datiem.
+
+[h1]:8. Multidimensionālie masīvi
+[p]:Javascript masīvi var būt arī vairāku dimensiju struktūras, kurās katrs elements ir vēl viens masīvs. Tas ļauj glabāt un apstrādāt sarežģītākus datiem uzdevumus.
+
+[h1]:9. Noslēgums
+[p]:Array klase ir spēcīgs un bieži izmantots rīks Javascript programmēšanā. To var izmantot dažādu datu organizēšanai un manipulēšan

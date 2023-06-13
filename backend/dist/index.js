@@ -17,42 +17,42 @@ const cors_1 = __importDefault(require("cors"));
 const body_parser_1 = __importDefault(require("body-parser"));
 const dotenv_1 = require("dotenv");
 const mongoose_1 = __importDefault(require("mongoose"));
-const noteService_1 = require("../models/noteService");
+const presentationServices_1 = require("../models/presentation/presentationServices");
 (0, dotenv_1.config)();
 mongoose_1.default.connect(process.env.MONGODB_URI || '');
 const app = (0, express_1.default)();
 app.use((0, cors_1.default)());
 app.use(body_parser_1.default.json());
 app.use(express_1.default.static(`${__dirname}/build/`));
-app.post('/api/notes', (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+app.post('/api/presentations', (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
-        const note = yield (0, noteService_1.createNote)(req.body.name, req.body.description);
+        const note = yield (0, presentationServices_1.createPresentation)(req.body.name, req.body.textContent);
         res.send(note);
     }
     catch (error) {
-        console.log(error);
+        // console.log(error)
     }
 }));
-app.get('/api/notes', (req, res) => __awaiter(void 0, void 0, void 0, function* () {
-    const notes = yield (0, noteService_1.getAllNotes)();
+app.get('/api/presentations', (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+    const notes = yield (0, presentationServices_1.getAllPresentations)();
     res.send(notes);
 }));
-app.get('/api/notes/:name', (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+app.get('/api/presentations/:name', (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
-        const note = yield (0, noteService_1.getNoteByName)(req.params.name);
+        const note = yield (0, presentationServices_1.getPresentationByName)(req.params.name);
         res.send(note);
     }
     catch (error) {
-        console.log(error);
+        // console.log(error)
     }
 }));
-app.delete('/api/notes/:name', (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+app.delete('/api/presentations/:name', (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
-        const note = yield (0, noteService_1.deleteNoteByName)(req.params.name);
+        const note = yield (0, presentationServices_1.deletePresentationByName)(req.params.name);
         res.send(note);
     }
     catch (error) {
-        console.log(error);
+        // console.log(error)
     }
 }));
 const PORT = process.env.PORT || 3001;

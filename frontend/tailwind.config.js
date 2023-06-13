@@ -1,8 +1,19 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{tsx,ts}"],
+  content: ['./src/**/*.{ts,tsx}'],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        chakra: ['Chakra Petch', 'sans-serif'],
+      },
+    },
   },
-  plugins: [],
+  variants: {
+    imageRendering: ['responsive'],
+  },
+  plugins: [
+    require('tailwindcss-image-rendering')(), // no options to configure
+    require('@tailwindcss/typography'),
+    require('tailwind-scrollbar'),
+  ],
 }

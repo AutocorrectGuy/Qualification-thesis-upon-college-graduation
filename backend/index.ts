@@ -4,11 +4,11 @@ import bodyParser from 'body-parser'
 import { config } from 'dotenv'
 import mongoose from 'mongoose'
 import {
-    createNote,
-    getAllNotes,
-    getNoteByName,
-    deleteNoteByName,
-} from './models/noteService'
+    createPresentation,
+    getAllPresentations,
+    getPresentationByName,
+    deletePresentationByName,
+} from './models/presentation/presentationServices'
 
 config()
 
@@ -19,35 +19,35 @@ app.use(cors())
 app.use(bodyParser.json())
 app.use(express.static(`${__dirname}/build/`))
 
-app.post('/api/notes', async (req, res) => {
+app.post('/api/presentations', async (req, res) => {
     try {
-        const note = await createNote(req.body.name, req.body.description)
+        const note = await createPresentation(req.body.name, req.body.textContent)
         res.send(note)
     } catch (error) {
-        console.log(error)
+        // console.log(error)
     }
 })
 
-app.get('/api/notes', async (req, res) => {
-    const notes = await getAllNotes()
+app.get('/api/presentations', async (req, res) => {
+    const notes = await getAllPresentations()
     res.send(notes)
 })
 
-app.get('/api/notes/:name', async (req, res) => {
+app.get('/api/presentations/:name', async (req, res) => {
     try {
-        const note = await getNoteByName(req.params.name)
+        const note = await getPresentationByName(req.params.name)
         res.send(note)
     } catch (error) {
-        console.log(error)
+        // console.log(error)
     }
 })
 
-app.delete('/api/notes/:name', async (req, res) => {
+app.delete('/api/presentations/:name', async (req, res) => {
     try {
-        const note = await deleteNoteByName(req.params.name)
+        const note = await deletePresentationByName(req.params.name)
         res.send(note)
     } catch (error) {
-        console.log(error)
+        // console.log(error)
     }
 })
 

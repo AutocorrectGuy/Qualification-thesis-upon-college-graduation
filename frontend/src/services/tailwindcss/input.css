@@ -1,3 +1,120 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  body {
+    @apply overflow-y-scroll scrollbar scrollbar-track-[#0C0C20] scrollbar-thumb-slate-700 scrollbar-corner-[#0C0C20];
+  }
+  /*
+    forms
+  */
+
+  .input-field {
+    @apply h-full rounded-md border-2 border-slate-600 bg-slate-700 text-sm focus:border-slate-600 hover:border-slate-500;
+  }
+  /* react-select dark mode*/
+  .my-react-select-container .my-react-select__control {
+    @apply input-field;
+  }
+  .my-react-select-container .my-react-select__control--is-focused {
+    @apply border-slate-400 shadow-none hover:border-slate-600;
+  }
+  .my-react-select-container .my-react-select__control--menu-is-open {
+    @apply border-slate-600 shadow-none;
+  }
+  .my-react-select-container .my-react-select__menu {
+    @apply cursor-pointer border-2 border-slate-600 bg-slate-700;
+  }
+  .my-react-select-container .my-react-select__option {
+    @apply bg-slate-700  text-slate-200 hover:bg-slate-800;
+  }
+  .my-react-select-container .my-react-select__option--is-focused {
+    @apply bg-slate-800;
+  }
+  .my-react-select-container .my-react-select__indicator-separator {
+    @apply bg-slate-400;
+  }
+  .my-react-select-container .my-react-select__dropdown-indicator {
+    @apply p-1 text-slate-300 hover:text-slate-400;
+  }
+  .my-react-select-container .my-react-select__input-container,
+  .my-react-select-container .my-react-select__placeholder,
+  .my-react-select-container .my-react-select__single-value {
+    @apply text-slate-200;
+  }
+
+  /* markdown styles */
+  .markdown-page {
+    @apply markdown-tailwind-dark prose-sm w-full rounded-b-lg p-4 sm:prose sm:max-w-5xl sm:p-10;
+  }
+
+  .markdown-tailwind-dark {
+    @apply bg-gray-900 bg-opacity-50 text-gray-200;
+  }
+
+  .markdown-tailwind-dark h1 {
+    @apply mb-2 mt-4 text-4xl text-purple-400;
+  }
+
+  .markdown-tailwind-dark h2 {
+    @apply mb-2 mt-4 text-3xl text-purple-300;
+  }
+
+  .markdown-tailwind-dark h3 {
+    @apply mb-2 mt-4 text-2xl text-purple-200;
+  }
+
+  .markdown-tailwind-dark h4 {
+    @apply mb-2 mt-4 text-xl text-purple-100;
+  }
+
+  .markdown-tailwind-dark h5 {
+    @apply mb-2 mt-4 text-lg text-purple-50;
+  }
+
+  .markdown-tailwind-dark h6 {
+    @apply mb-2 mt-4 text-base text-purple-400;
+  }
+
+  .markdown-tailwind-dark p {
+    @apply mb-4 mt-4 text-slate-300;
+  }
+
+  .markdown-tailwind-dark a {
+    @apply text-purple-400 underline;
+  }
+
+  .markdown-tailwind-dark a:hover {
+    @apply no-underline;
+  }
+
+  .markdown-tailwind-dark ul,
+  .markdown-tailwind-dark ol {
+    @apply pl-8 text-gray-200;
+  }
+
+  .markdown-tailwind-dark li {
+    @apply my-0 text-slate-400;
+  }
+
+  .markdown-tailwind-dark blockquote {
+    @apply ml-0 mr-0 border-l-4 border-purple-500 pl-4 text-purple-300;
+  }
+
+  .markdown-tailwind-dark pre {
+    @apply rounded-md bg-gray-800 bg-opacity-75 hover:bg-opacity-100;
+  }
+
+  .markdown-tailwind-dark pre div {
+    @apply rounded-lg;
+  }
+
+  .markdown-tailwind-dark code {
+    @apply rounded-md bg-gray-800 px-1 py-0.5 text-purple-300;
+  }
+
+  .markdown-tailwind-dark strong {
+    @apply font-bold text-purple-400;
+  }
+}

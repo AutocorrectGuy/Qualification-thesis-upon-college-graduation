@@ -1,0 +1,53 @@
+[h1]:1. Mainīgie
+[p]:Mainīgie ir veidi, kā saglabāt un manipulēt datiem programmā. To vērtības var mainīties, un tos var izmantot dažādās operācijās un izteiksmēs.
+
+[h1]:2. Datu veidi
+[p]:Programmēšanā izmanto dažādus datu veidus, lai glabātu dažādas veidu informāciju:
+  - **Skaitļi** (piemēram, veseli skaitļi, decimālskaitļi) - izmantojot dažādas datu tipu atvasinājumu.
+  - **Virknes** - simbolu virknes, piemēram, teksts.
+  - **Būla vērtības** - true (patiess) vai false (nepatiess).
+  - **Masīvi** - struktūras, kas glabā vairākas vērtības vienā mainīgajā.
+  - **Objekti** - kompleksi dati, kas ietver vairākas vērtības un tos apstrādājošās funkcijas.
+
+[h1]:3. Skaitļu masīvi
+[p]:Skaitļu masīvi ir datu struktūras, kas glabā vairākus skaitļus vienā mainīgajā. To izmanto, lai organizētu un manipulētu ar skaitļu grupām.
+  - Piemēram, var izveidot masīvu ar skaitļiem [1, 2, 3, 4, 5].
+  - Skaitļu masīvu var izmantot, lai veiktu operācijas ar visiem tajā esošajiem skaitļiem, piemēram, saskaitīšanu, vidējo vērtību utt.
+
+[h1]:4. Virkņu masīvi
+[p]:Virkņu masīvi ir datu struktūras, kas glabā vairākas virknes vienā mainīgajā. To izmanto, lai organizētu un manipulētu ar simbolu virknēm.
+  - Piemēram, var izveidot masīvu ar virknēm ["suns", "kaķis", "putns"].
+  - Virkņu masīvu var izmantot, lai piekļūtu un manipulētu ar konkrētu virkni masīvā, piemēram, iegūt elementu pēc indeksa.
+
+[h1]:5. Masīvu manipulācija
+[p]:Masīvi ļauj veikt dažādas operācijas un manipulācijas ar to saturu.
+  - Var piekļūt masīva elementiem pēc indeksa, sākot no 0.
+  - Var pievienot jaunus elementus masīvam.
+  - Var izdzēst vai izmainīt esošos masīva elementus.
+  - Var izveidot jaunu masīvu, apvienojot vai sadalot esošos masīvus.
+
+[h1]:6. Būla masīvi
+[p]:Būla masīvi ir datu struktūras, kas glabā vairākas būla vērtības vienā mainīgajā. To izmanto, lai organizētu un manipulētu ar dažādu būla vērtību grupām.
+  - Piemēram, var izveidot masīvu ar būla vērtībām [true, false, true, true].
+  - Būla masīvu var izmantot, lai veiktu operācijas ar visiem tajā esošajiem būla vērtībām, piemēram, loģiskās operācijas (AND, OR, NOT) vai izveidot nosacījumu izteiksmes.
+
+[h1]:7. Masīvu izmēģinājumi
+[p]:Izveidojot un manipulējot ar masīviem, var izmēģināt dažādas operācijas un funkcionalitāti programmēšanas valodā.
+  - Veikt saskaitīšanu visu skaitļu summai masīvā.
+  - Atrast maksimālo un minimālo vērtību masīvā.
+  - Izvadīt visus masīva elementus.
+  - Pārveidot masīva elementu vērtības, piemēram, dubultot visus skaitļus.
+
+[h1]:8. Ieguvumi un izaicinājumi
+[p]:Masīvi piedāvā daudzus ieguvumus programmēšanā, bet tajos arī var rasties izaicinājumi.
+  - Ieguvumi:
+    - Organizēti dati grupās.
+    - Ātrāka datu piekļuve pēc indeksa.
+    - Izmēra maiņa un manipulācija.
+  - Izaicinājumi:
+    - Ierobežots izmērs.
+    - Noteikts datu tipa ierobežojums.
+    - Pamatoperāciju sarežģītība.
+
+[h1]:9. Kopējais secinājums
+[p]:Masīvi ir noderīga datu struktūra, kas ļauj organizēt un manipulēt ar grupām dažādu datu veidu. Tās ir būtiska sastāvdaļa programmēšanā, un tās piedāvā daudzas iespējas un funkcionalitāti.

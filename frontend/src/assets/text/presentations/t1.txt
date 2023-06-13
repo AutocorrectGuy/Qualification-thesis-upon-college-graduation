@@ -1,0 +1,26 @@
+[h1]:1. Ievads JavaScript
+[p]:JavaScript ir programmēšanas valoda, kas tiek izmantota tīmekļa vietņu attīstībai. Tā ir dinamiska valoda, kas tiek izpildīta pārlūkprogrammā, un to var izmantot gan klienta puses, gan servera puses skriptu izpildei.
+
+[h1]:2. Pirmie soļi JavaScript
+[p]:Lai izmantotu JavaScript, jums ir jāievieto <script> elements HTML dokumentā vai jāizmanto atsevišķs .js fails. Varat izvēlēties arī vietni, kurā izpildīt JavaScript kodu, piemēram, konsoli.
+
+[h1]:3. Mainīgie un datu tipi
+[p]:JavaScript izmanto dinamisku tipizēšanu, kas nozīmē, ka mainīgajiem nav jānorāda datu tips. Varat izmantot mainīgos, lai glabātu skaitļus, virknes, būla vērtības un daudz ko citu.
+
+[h1]:4. Operators un izteiksmes
+[p]:JavaScript piedāvā dažādus operatorus, piemēram, matemātiskos operatorus, salīdzināšanas operatorus un loģiskos operatorus. Izteiksmes tiek izmantotas, lai veiktu darbības un iegūtu rezultātus.
+
+[h1]:5. Kontroles plūsma
+[p]:JavaScript piedāvā dažādas kontroles plūsmas struktūras, piemēram, if-else izteiksmes, ciklus un izņēmumu apstrādi. Ar šīm struktūrām jūs varat kontrolēt kodu un izpildīt dažādas darbības atkarībā no noteiktajiem nosacījumiem.
+
+[h1]:6. Funkcijas
+[p]:Funkcijas ir JavaScript kodas atkārtoti izmantojami bloki. Jūs varat definēt savas funkcijas, nosaukt tās un izsaukt tās vairākas reizes. Funkcijas var pieņemt argumentus un atgriezt rezultātus.
+
+[h1]:7. Masīvi
+[p]:Masīvi ir objekti, kas ļauj glabāt vairākus vērtību sarakstus. Ar masīviem varat izveidot sarakstus, apstrādāt datus un veikt dažādas darbības ar vienādām datu struktūrām.
+
+[h1]:8. Objekti
+[p]:Objekti ir kompleksi datu tipi, kas sastāv no īpašībām un vērtībām. Objekti ļauj organizēt saistītas informācijas grupas un veikt darbības ar šiem dati.
+
+[h1]:9. Notikumu apstrāde
+[p]:JavaScript piedāvā iespēju apstrādāt notikumus, piemēram, pogu nospiešanu, ievades veikšanu un citas darbības, kas tiek veiktas vietnē. Jūs varat pievienot notikumu apstrādes funkcijas, lai reaģētu uz lietotāja darbībām.

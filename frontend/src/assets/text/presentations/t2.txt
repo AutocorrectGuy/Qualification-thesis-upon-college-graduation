@@ -1,0 +1,26 @@
+[h1]:1. Programmēšanas valodu vēsture (Javascript)
+[p]:Javascript ir viena no populārākajām programmēšanas valodām mūsdienās. Tās vēsture sniedz ieskatu programmēšanas pasaules attīstībā un Javascript lomu šajā procesā.
+
+[h1]:2. Pirms Javascript
+[p]:Pirms Javascript bija izveidotas citas programmēšanas valodas, kas ierobežoja darbības iespējas tiešsaistē. Lai pilnvērtīgi apstrādātu un atjauninātu tīmekļa lapas saturu, bija nepieciešama jauna valoda.
+
+[h1]:3. Netscape Navigator un Brendan Eich
+[p]:Javascript tika izveidots 1995. gadā Netscape Navigator pārlūkprogrammai. Tas tika radīts arī īsā laikā, apmēram divas nedēļas, no programmētāja Brendan Eich.
+
+[h1]:4. Javascript sākotnējie mērķi
+[p]:Sākotnēji Javascript tika izstrādāts kā vienkārša valoda, kas nodrošina interaktīvu tīmekļa vietu veidošanu. Tā tika izmantota galvenokārt mazākiem darbiem un funkcionalitātes uzlabošanai tīmekļa lapās.
+
+[h1]:5. Javascript popularizācija
+[p]:Javascript kļuva populāra, pateicoties tās spējai darboties visos galvenajos pārlūkprogrammās. Tādējādi attīstītājiem bija iespēja izveidot vienotu interaktīvo pieredzi neatkarīgi no lietotāja izmantotā pārlūkprogrammas.
+
+[h1]:6. Javascript standartizācija
+[p]:Lai nodrošinātu vienotību un kvalitāti Javascript izstrādē, tika izveidots standarts - ECMAScript. Tas definē valodas specifikāciju un regulāri tiek atjaunināts ar jaunām funkcijām un iespējām.
+
+[h1]:7. Modernā Javascript
+[p]:Ar laiku Javascript ir attīstījusies, kļūstot par pilnvērtīgu programmēšanas valodu. Tā tagad atbalsta objektu orientētu programmēšanu, asinhrono kodu izpildi, moduļu sistēmu un daudzas citas funkcijas.
+
+[h1]:8. Izmantošana tīmekļa attīstībā
+[p]:Javascript ir būtisks instruments tīmekļa attīstībā. To izmanto interaktīvu lapu veidošanai, datu apstrādei, mājaslapu dinamizēšanai un citiem tīmekļa projektu aspektiem.
+
+[h1]:9. Nākotnes izredzes
+[p]:Javascript turpina attīstīties, atbalstot jaunākas tehnoloģijas un piedāvājot pilnveidotu programmēšanas pieredzi. Tā ir populāra valoda, kas saglabās savu nozīmi tīmekļa attīstībā arvien pieaugošā mērā.

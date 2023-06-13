@@ -1,0 +1,71 @@
+[h1]:1. Datu tipi
+[p]:Datu tipi ir svarīga daļa TypeScript valodas, kas nodrošina iespēju deklarēt mainīgo tipus. TypeScript piedāvā vairākus iebūvētus datu tipus, tostarp:
+  - Skaitļi: `number`
+  - Virknes: `string`
+  - Būla vērtības: `boolean`
+  - Masīvi: `array`
+  - Objekti: `object`
+  - Uztveres: `tuples`
+  - Undefinēti: `undefined`
+  - Null: `null`
+  - Nezināms: `unknown`
+  - Un citas
+
+[h1]:2. Funkcijas
+[p]:Funkcijas ir TypeScript valodas pamatelements, kas ļauj definēt atkārtoti izmantojamus blokus koda. TypeScript funkcijas var būt arī tipizētas, kas nozīmē, ka jūs varat definēt ieejas un izvades tipus. Funkcijas TypeScript var tikt izveidotas šādos veidos:
+  - Funkcijas ar ieejas un izvades tipiem
+  - Beztipu funkcijas
+  - Anonīmās funkcijas
+  - Saglabātās funkcijas
+  - Ģeneriskas funkcijas
+  - Uzvārdotas funkcijas
+
+[h1]:3. Moduļi
+[p]:Moduļi ir TypeScript mehānisms, kas ļauj sadalīt kodu vairākos failos vai moduļos, kas padara kodu pārvaldāmu un atkārtoti izmantojamu. TypeScript nodrošina vairākas moduļu sistēmas, tostarp:
+  - CommonJS moduļu sistēma
+  - AMD moduļu sistēma
+  - ES moduļu sistēma
+  - Uzlabotā ES moduļu sistēma (ESM)
+  - Namespace moduļi
+
+[h1]:4. Klases
+[p]:Klases ir TypeScript objektu orientētās programmēšanas sastāvdaļa, kas nodrošina veidu, kā definēt objekta struktūru un uzvedību. TypeScript klases piedāvā vairākas iespējas un funkcionalitāti, tostarp:
+  - Konstruktori
+  - Iztēlojamās īpašības
+  - Metodes
+  - Mantošana
+  - Implementēšana
+  - Modifikatori (publiski, privāti, aizsargāti)
+  - Abstraktās klases
+
+[h1]:5. Interfeisi
+[p]:Interfeisi ir līdzīgi klases konceptam, kas nosaka objekta struktūru un metožu definīcijas. TypeScript interfeisi piedāvā iespēju definēt konkrētu tipu prasības un objektu formu. Ar interfeisiem var:
+  - Definēt objekta struktūru
+  - Definēt metožu parakstus
+  - Implementēt vairākus interfeisus
+  - Izveidot objektus, kas atbilst noteiktam interfeisam
+
+[h1]:6. Tīpus apvienošana
+[p]:TypeScript piedāvā iespēju apvienot vairākus tipus vienā, kas ir noderīgi, kad nepieciešams apstrādāt dažāda veida dati. Ar tīpu apvienošanu var:
+  - Apvienot divus vai vairākus tipus
+  - Izmantot "OR" operatoru (`|`) tīpu apvienošanai
+  - Veikt atbilstības pārbaudi ar apvienotiem tipiem
+
+[h1]:7. Tīpus izslēgšana
+[p]:Tīpu izslēgšana ir TypeScript mehānisms, kas ļauj izslēgt konkrētus tipus no datu apstrādes. Tas ir ļoti noderīgs, lai veiktu drošu tipu pārbaudi un izvairītos no kļūdām. Ar tīpu izslēgšanu var:
+  - Izslēgt konkrētus tipus izpildes laikā
+  - Izmantot "is" operatoru un tīpu apzīmējumus
+  - Veikt drošu tipu pārbaudi
+
+[h1]:8. Moduļu importēšana un eksportēšana
+[p]:TypeScript piedāvā mehānismus moduļu importēšanai un eksportēšanai, kas ļauj lietot atkārtoti izmantojamu kodu un nodrošina labu koda organizāciju. Ar moduļu importēšanu un eksportēšanu var:
+  - Importēt funkcijas, klases, interfeisus un citus elementus no citiem moduļiem
+  - Eksportēt funkcijas, klases, interfeisus un citus elementus no pašreizējā moduļa
+  - Izmantot dažādas importēšanas un eksportēšanas sintakses formas
+
+[h1]:9. TypeScript tips definīcijās
+[p]:TypeScript iespējams definēt tipus ne tikai mainīgajiem, funkcijām un objektiem, bet arī bibliotēku, moduļu un jūsu pašu kodā. TypeScript tips definīcijas nodrošina iespēju precizēt tipus ārējām JavaScript bibliotēkām un moduļiem. Ar TypeScript tips definīcijām var:
+  - Definēt tipus ārējām bibliotēkām un moduļiem
+  - Papildināt esošās tipu definīcijas
+  - Izveidot savas tipu definīcijas
+  - Izmantot šīs definīcijas TypeScript valodas statiskajā tipizācijā

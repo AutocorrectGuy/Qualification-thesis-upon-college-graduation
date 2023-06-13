@@ -1,0 +1,26 @@
+[h1]:1. Ievads OOP un TypeScript
+[p]:Objektorientētā programmēšana (OOP) ir programmēšanas paradigma, kas ļauj organizēt kodu un dati strukturālā veidā, izmantojot objektus. TypeScript ir programmēšanas valoda, kas paplašina JavaScript iespējas, nodrošinot statisko tipizāciju un OOP atbalstu.
+
+[h1]:2. Klases TypeScript
+[p]:TypeScript ļauj definēt klases, kas ir objektu veidošanas "paraugi". Klases apraksta objekta stāvokli un uzvedību, iekļaujot atribūtus un metodes.
+
+[h1]:3. Mantošana TypeScript
+[p]:Mantošana ir mehānisms, kas ļauj vienai klasei mantot citu klasi. Tas ļauj izmantot esošo kodu un paplašināt tā funkcionalitāti.
+
+[h1]:4. Interfeisi TypeScript
+[p]:Interfeisi definē līgumu, kas nosaka, kādas metodes un atribūti jābūt klasei vai objektam. TypeScript ļauj definēt interfeisus un implementēt tos klasēs.
+
+[h1]:5. Abstraktās klases TypeScript
+[p]:Abstraktās klases ir klases, ko nevar tieši instancēt, bet var tikt izmantotas kā pamats citu klasi izveidei. Abstraktās klases definē kopējas īpašības un metodes, kas jāimplementē konkrētās klasēs.
+
+[h1]:6. Izmantojot TypeScript moduļus
+[p]:TypeScript atbalsta moduļus, kas ļauj sadalīt kodu vairākās atsevišķās failos. Moduļi palīdz organizēt kodu, padara to atkārtoti izmantojamu un veicina moduļu sistēmas veidošanu.
+
+[h1]:7. Encapsulation TypeScript
+[p]:Encapsulation ir OOP pamatprincips, kas ļauj slēpt objekta iekšējo stāvokli un realizāciju, atklājot tikai nepieciešamos publiskos interfeisus. TypeScript piedāvā modifikatorus, lai kontrolētu piekļuvi atribūtiem un metodēm.
+
+[h1]:8. Polimorfisms TypeScript
+[p]:Polimorfisms ļauj izmantot dažādas klases ar vienādiem interfeisiem kā vienādu tipu. Tas veicina kodas atkārtotu izmantošanu un veido elastīgu kodu.
+
+[h1]:9. TypeScript izmantošana populārās bibliotēkās un ietvaros
+[p]:TypeScript ir populāra izvēle daudzos modernos JavaScript ietvaros un bibliotēkās, piemēram, Angular, React un Vue.js. TypeScript nodrošina papildu statisko tipizāciju un palīdz izvairīties no kļūdām jau izstrādes laikā.

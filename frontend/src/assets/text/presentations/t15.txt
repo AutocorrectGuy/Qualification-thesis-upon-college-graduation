@@ -1,0 +1,30 @@
+[h1]:1. this atslēgas vārds (Javascript)
+[p]:"this" ir atslēgas vārds Javascript valodā, kas atsaucas uz pašreizējo objektu, kurā tiek izsaukts kodā.
+
+[h1]:2. Kā "this" tiek noteikts?
+[p]:"this" tiek noteikts atkarībā no konteksta, kurā tiek izsaukts kods. Ir četri galvenie veidi, kā "this" tiek noteikts:
+  1. Globālajā telpā: Ja "this" tiek izsaukts globālajā telpā, tas atsaucas uz globālo objektu, piemēram, "window" pārlūkprogrammā.
+  2. Objekta metodes kontekstā: Ja "this" tiek izsaukts objekta metodes ietvaros, tas atsaucas uz pašu objektu, uz kura tiek izsaukta metode.
+  3. Izpildes kontekstā funkcijā: Ja "this" tiek izsaukts funkcijas ietvaros, tas atsaucas uz objektu, uz kura tiek attiecināta funkcija. Tas var būt noteikts arī izsaucēja konteksta palīdzību, izmantojot metodes kā "call()", "apply()" vai "bind()".
+  4. Konstruktora funkcijas kontekstā: Ja "this" tiek izsaukts konstruktora funkcijas ietvaros, tas atsaucas uz jaunizveidoto objektu, kas tiek radīts ar "new" atslēgas vārdu.
+
+[h1]:3. "this" konteksta zaudēšana
+[p]:Būtisks aspekts par "this" ir tā konteksta zaudēšana. Tas notiek, kad "this" tiek izsaukts no konteksta, kurā tas tika definēts, un zaudē savu sākotnējo nozīmi. To var novērst, izmantojot dažādas tehniskas metodes, piemēram, saglabājot "this" kā citas mainīgās vērtību vai izmantojot funkciju, kas ietver "this".
+
+[h1]:4. "this" atrašanās vieta
+[p]:Bieži izmantošanas vietas "this" ir objekta metodes, notikumu apstrādes funkcijas, callback funkcijas un konstruktoru funkcijas. Katrā no šīm vietām "this" var norādīt uz atšķirīgu objektu.
+
+[h1]:5. Arrow funkcijas un "this"
+[p]:"this" uzvedība arrow funkcijās ir atšķirīga no parastajām funkcijām. Arrow funkcijas nemaina "this" vērtību, tās ņem "this" no apkārtējā konteksta, kur tās ir definētas.
+
+[h1]:6. "this" saistīšana ar "bind()"
+[p]:"bind()" ir metode, kas ļauj saistīt konkrētu objektu ar funkciju, kas satur "this". Tas ļauj noteikt, kādam objektam jābūt "this" vērtībai funkcijas izpildes laikā, neatkarīgi no tā, kurā kontekstā tā ir izsaukta.
+
+[h1]:7. "this" saistīšana ar "call()" un "apply()"
+[p]:"call()" un "apply()" ir metodes, kas ļauj izsaukt funkciju ar noteiktu "this" vērtību un argumentiem. "call()" izmanto atsevišķas argumentu vērtības, bet "apply()" pieņem argumentu masīvu.
+
+[h1]:8. "this" un ES6 klases
+[p]:ES6 klases izmanto "this" vērtību tāpat kā citi objekti. Metodes, kas ir definētas klasē, automātiski saista "this" ar instanci, uz kuras tās tiek izsauktas.
+
+[h1]:9. Secinājums
+[p]:"this" atslēgas vārds Javascript valodā ir ļoti svarīgs, jo tas nosaka, uz kuru objektu atsaucas izsauktā funkcija vai metode. Izpratne par "this" un tā pareiza izmantošana ir būtiska, lai saprastu Javascript koda darbību un novērstu nepareizu "this" uzvedību.

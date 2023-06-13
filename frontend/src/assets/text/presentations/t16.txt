@@ -1,0 +1,26 @@
+[h1]:1. "Date" klase un tās metodes
+[p]:Javascript valodā ir pieejama "Date" klase, kas ļauj veikt darbības ar datumiem un laikiem. Šajā prezentācijā aplūkosim galvenās "Date" klases metodes.
+
+[h1]:2. "Date" objekta izveide
+[p]:"Date" objektu var izveidot, izmantojot konstruktora funkciju. Piemēram, `let date = new Date();` izveidos "Date" objektu, kas atbilst pašreizējam datumam un laikam.
+
+[h1]:3. "getDate()" metode
+[p]:"getDate()" metode atgriež mēneša dienas skaitu norādītajā datumā. Piemēram, ja izpildīsim `date.getDate()`, tiks atgriezts pašreizējā datuma dienas skaits.
+
+[h1]:4. "getMonth()" metode
+[p]:"getMonth()" metode atgriež mēneša skaitu (0-11) norādītajā datumā. Piemēram, ja izpildīsim `date.getMonth()`, tiks atgriezts pašreizējā datuma mēneša numurs.
+
+[h1]:5. "getFullYear()" metode
+[p]:"getFullYear()" metode atgriež četrus ciparus garu gadu skaitu norādītajā datumā. Piemēram, ja izpildīsim `date.getFullYear()`, tiks atgriezts pašreizējā gada skaits.
+
+[h1]:6. "getHours()" metode
+[p]:"getHours()" metode atgriež stundu skaitu (0-23) norādītajā laikā. Piemēram, ja izpildīsim `date.getHours()`, tiks atgriezts pašreizējā laika stundu skaits.
+
+[h1]:7. "getMinutes()" metode
+[p]:"getMinutes()" metode atgriež minūšu skaitu (0-59) norādītajā laikā. Piemēram, ja izpildīsim `date.getMinutes()`, tiks atgriezts pašreizējā laika minūšu skaits.
+
+[h1]:8. "getSeconds()" metode
+[p]:"getSeconds()" metode atgriež sekunžu skaitu (0-59) norādītajā laikā. Piemēram, ja izpildīsim `date.getSeconds()`, tiks atgriezts pašreizējā laika sekunžu skaits.
+
+[h1]:9. "toDateString()" metode
+[p]:"toDateString()" metode atgriež datumu kā lesījamu tekstu formātā "ddd mmm dd yyyy". Piemēram, ja izpildīsim `date.toDateString()`, tiks atgriezts pašreizējais datums teksta formātā.

@@ -1,0 +1,26 @@
+[h1]:1. Pirmā parasta programma ar cikliem un pārbaudēm (Javascript)
+[p]:Šajā prezentācijā apskatīsim, kā izveidot pirmo parasto programmu ar cikliem un pārbaudēm izmantojot Javascript valodu.
+
+[h1]:2. Ievads
+[p]:Pirms sākam, ļaujiet paskaidrot, kas ir cikli un pārbaudes Javascript valodā.
+
+[h1]:3. Cikli
+[p]:Cikli ļauj izpildīt noteiktu kodu daudzkārtīgi. Ir divu veidu cikli: "for" un "while". 
+
+[h1]:4. Pārbaudes
+[p]:Pārbaudes ļauj izvērtēt nosacījumu un atkarībā no tā veikt atbilstošu darbību. Ir divu veidu pārbaudes: "if" un "switch".
+
+[h1]:5. For cikls
+[p]:For cikls ir bieži izmantots cikla veids, kas izpilda kodu norādītu skaitu reižu.
+
+[h1]:6. While cikls
+[p]:While cikls izpilda kodu atkārtoti, kamēr izpildās noteikts nosacījums.
+
+[h1]:7. If pārbaude
+[p]:If pārbaude izvērtē nosacījumu un izpilda darbību, ja nosacījums ir patiess.
+
+[h1]:8. Switch pārbaude
+[p]:Switch pārbaude ļauj veikt dažādas darbības atkarībā no vairākām vērtībām.
+
+[h1]:9. Pabeigums
+[p]:Paldies par uzmanību! Mēs esam apskatījuši pirmās parastās programmas ar cikliem un pārbaudēm izveidi Javascript valodā.

@@ -1,0 +1,26 @@
+[h1]:1. TS – nākama pakāpe JavaScript-am
+[p]:JavaScript ir populāra programmēšanas valoda, kas tiek plaši izmantota webā. Tomēr tā ir dinamiska valoda ar vairākām ierobežojumiem. TypeScript (TS) ir paplašinājums JavaScript-am, kas ievieš statisko tipizēšanu un daudzas citas papildu iespējas.
+
+[h1]:2. Statiska tipizēšana
+[p]:TS ļauj definēt tipus mainīgajiem, funkcijām un objektiem, kas palīdz atrast un novērst daudzus kļūdas programmēšanas laikā. Tas nodrošina labāku drošību un izstrādes pieredzi.
+
+[h1]:3. Klases un interfeisi
+[p]:TS atbalsta klases un interfeisus, kas atvieglo objektorientēto programmēšanu. Klases ļauj definēt konstruktorus, metodes un īpašības, savukārt interfeisi definē kontrakta specifikāciju.
+
+[h1]:4. Moduļi un importēšana
+[p]:TS ievieš moduļu sistēmu, kas ļauj sadalīt kodu vairākās failos. Moduļi atvieglo projektu uzturēšanu un atkārtotu izmantošanu, savukārt importēšana ļauj iegūt piekļuvi citu moduļu funkcionalitātei.
+
+[h1]:5. Saderība ar JavaScript
+[p]:TS ir saderīgs ar esošiem JavaScript projektiem. JavaScript kods var tikt pakāpeniski pārveidots uz TS, nodrošinot gludu pāreju uz jaunām iespējām un uzlabojot esošo kodu.
+
+[h1]:6. Tālāka JavaScript ekosistēmas atbalsts
+[p]:TS tiek plaši atbalstīts daudzos populāros rīkos un bibliotēkās, kas izmantojamās JavaScript projektiem. Tas ļauj izmantot labākās prakses un izvairīties no koda dublēšanās.
+
+[h1]:7. Izstrādes laika atvieglojumi
+[p]:TS nodrošina dažādas iespējas, kas uzlabo izstrādes laiku, piemēram, automātisku papildinājumu un refaktorizāciju, izmantojot spēcīgas IDE funkcijas un statisko analīzi.
+
+[h1]:8. Atbalsts no Microsoft un kopienas
+[p]:TS ir izstrādāts un uzturēts Microsoft, un tas ir atvērts avots ar aktīvu attīstības kopienas atbalstu. Tas garantē jauninājumus un labojumus laika gaitā, kā arī plašu resursu pieejamību.
+
+[h1]:9. Kā sākt izmantot TS
+[p]:Lai sāktu izmantot TS, jums ir nepieciešams instalēt TypeScript kompilatoru un konfigurēt projekta iestatījumus. Pēc tam varat sākt izveidot .ts failus un kompilēt tos uz JavaScript.

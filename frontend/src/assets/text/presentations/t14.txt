@@ -1,0 +1,39 @@
+[h1]:1. Objekti, konstruktori, Prototype
+[p]:Objekti ir JavaScript valodas pamatelements, kas ļauj mums veidot un manipulēt ar datiem. Tie ir uzglabāti kā vērtības, un katram objektam ir savas īpašības un metodes.
+  - Objekta īpašības ir vērtības, kas apraksta objekta stāvokli.
+  - Metodes ir funkcijas, kas darbojas uz objektiem un ļauj veikt darbības ar objektiem.
+
+[h1]:2. Konstruktori
+[p]:Konstruktori ir funkcijas, kas tiek izmantotas, lai izveidotu jaunus objektus. Tie ir izmantojami, lai izveidotu objektus ar kopīgām īpašībām un metožu definīcijām.
+  - Konstruktora funkcijai jāsākas ar lielo burtu, lai atšķirtu to no parastajām funkcijām.
+  - Konstruktors tiek izsaukts ar "new" operāciju, lai izveidotu jaunu objektu.
+
+[h1]:3. Prototips
+[p]:Prototips ir mehānisms, kas ļauj objektiem mantot īpašības un metodes no citiem objektiem. Katram objektam ir prototipa saite, kas norāda uz citu objektu, no kura tiek iegūtas mantotās īpašības un metodes.
+  - Prototipa īpašības un metodes ir pieejamas visiem objektiem, kas izmanto šo prototipu kā savu pamatu.
+
+[h1]:4. Objekta izveide
+[p]:Lai izveidotu objektu, var izmantot divus veidus:
+  - Objekta literālis: var izveidot objektu, izmantojot acu iekavas un definējot īpašības un to vērtības.
+  - Konstruktora funkcija: var izveidot objektu, izsaukot konstruktoru ar "new" operāciju.
+
+[h1]:5. Īpašību piekļuve
+[p]:Īpašības var piekļūt un modificēt, izmantojot punktu notāciju vai kvadrātiekavas.
+  - Punktus notācija: objektaNosaukums.īpašībasNosaukums
+  - Kvadrātiekavas: objektaNosaukums['īpašībasNosaukums']
+
+[h1]:6. Metožu izsaukums
+[p]:Metožas ir funkcijas, kas darbojas uz objektiem. Tās var tikt izsauktas, izmantojot punktu notāciju.
+  - Izsaukums: objektaNosaukums.metodesNosaukums()
+
+[h1]:7. Prototipa iestatīšana
+[p]:Lai iestatītu objekta prototipu, var izmantot metodi "Object.create()".
+  - Iestatīšana: let jaunsObjekts = Object.create(prototips);
+
+[h1]:8. Prototipu mantošana
+[p]:Objekts manto prototipam pievienotās īpašības un metodes.
+  - Mantošana: objektaNosaukums.__proto__ vai Object.getPrototypeOf(objektaNosaukums)
+
+[h1]:9. Objektu kopēšana
+[p]:Lai veiktu objekta kopēšanu, var izmantot metodi "Object.assign()".
+  - Kopēšana: let jaunsObjekts = Object.assign({}, esošaisObjekts)

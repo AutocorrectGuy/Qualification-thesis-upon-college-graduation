@@ -1,0 +1,60 @@
+[h1]:1. Vienkāršas operācijas ar mainīgiem
+[p]:JavaScript valodā var veikt dažādas vienkāršas operācijas ar mainīgajiem:
+  - Matemātiskas operācijas: saskaitīšana, atņemšana, reizināšana, dalīšana.
+  - Mainīgo piešķiršana: vērtības ierakstīšana mainīgajā.
+  - Mainīgo inkrementācija un dekrementācija: vērtības palielināšana vai samazināšana par 1.
+  - Salīdzināšanas operācijas: lielāks/ mazāks/ vienāds ar.
+  
+[h1]:2. Datu pārvēršana
+[p]:JavaScript piedāvā vairākas metodes datu pārvēršanai starp dažādiem tipiem:
+  - parseInt(): pārvērš tekstu skaitlī.
+  - parseFloat(): pārvērš tekstu decimālskaitlī.
+  - toString(): pārvērš skaitli teksta formātā.
+  - toFixed(): norāda cik ciparus pēc komata saglabāt decimālskaitlī.
+  - String(): pārvērš vērtību teksta formātā.
+  - Number(): pārvērš vērtību skaitlī.
+  
+[h1]:3. Matemātiskas operācijas
+[p]:JavaScript piedāvā dažādas matemātiskas operācijas ar mainīgajiem:
+  - Saskaitīšana: a + b.
+  - Atņemšana: a - b.
+  - Reizināšana: a * b.
+  - Dalīšana: a / b.
+  - Modulis: a % b.
+  - Pakāpe: a ** b.
+  
+[h1]:4. Mainīgo piešķiršana
+[p]:Mainīgajiem var piešķirt vērtību ar zīmi "=":
+  - let x = 5; // mainīgajam "x" tiks piešķirta vērtība 5.
+  - let y = x + 3; // mainīgajam "y" tiks piešķirta vērtība 8 (x + 3).
+  
+[h1]:5. Mainīgo inkrementācija un dekrementācija
+[p]:JavaScript piedāvā īsos veidus, kā palielināt vai samazināt mainīgā vērtību par 1:
+  - x++; // palielina mainīgā "x" vērtību par 1.
+  - y--; // samazina mainīgā "y" vērtību par 1.
+  
+[h1]:6. Salīdzināšanas operācijas
+[p]:JavaScript ļauj salīdzināt mainīgo vērtības un izteikt rezultātu kā patiesu vai nepatiesu:
+  - Lielāks par: a > b.
+  - Mazāks par: a < b.
+  - Lielāks vai vienāds ar: a >= b.
+  - Mazāks vai vienāds ar: a <= b.
+  - Vienāds ar: a === b.
+  - Nav vienāds ar: a !== b.
+  
+[h1]:7. parseInt() un parseFloat()
+[p]:parseInt() pārvērš tekstu skaitlī, bet parseFloat() pārvērš tekstu decimālskaitlī:
+  - let x = parseInt("10"); // mainīgajam "x" tiks piešķirta vērtība 10.
+  - let y = parseFloat("3.14"); // mainīgajam "y" tiks piešķirta vērtība 3.14.
+  
+[h1]:8. toString() un toFixed()
+[p]:toString() pārvērš skaitli teksta formātā, bet toFixed() norāda cik ciparus pēc komata saglabāt decimālskaitlī:
+  - let x = 5;
+    let text = x.toString(); // mainīgajā "text" būs teksta vērtība "5".
+  - let y = 3.14159;
+    let fixed = y.toFixed(2); // mainīgajā "fixed" būs teksta vērtība "3.14".
+  
+[h1]:9. String() un Number()
+[p]:String() pārvērš vērtību teksta formātā, bet Number() pārvērš vērtību skaitlī:
+  - let x = String(10); // mainīgajā "x" būs teksta vērtība "10".
+  - let y = Number("3.14"); // mainīgajā "y" būs skaitļa vērtība 3.14.

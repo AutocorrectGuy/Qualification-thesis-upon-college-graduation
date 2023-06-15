@@ -57,7 +57,7 @@ const dashboardNavigationOptions: DashboardSection[] = [
     ],
   },
   {
-    title: 'JAK uzdevumi',
+    title: 'Programmēšana II',
     items: [
       {
         icon: faComputer,
@@ -68,6 +68,16 @@ const dashboardNavigationOptions: DashboardSection[] = [
         icon: faComputer,
         innerText: '1.1. - 2. uzdevums',
         to: '/uzdevums-2'
+      }
+    ],
+  },
+  {
+    title: 'Multimediju tehnoloģijas',
+    items: [
+      {
+        icon: faComputer,
+        innerText: 'MPR1, MPR2',
+        to: '/mpr1-mpr2'
       }
     ],
   },

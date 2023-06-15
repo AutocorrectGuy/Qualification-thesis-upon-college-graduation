@@ -1,0 +1,26 @@
+[h1]:1. Funkciju veidi un atšķirības (Javascript)
+[p]:JavaScript ir programmēšanas valoda, kas nodrošina dažādas veidnes un metodes funkciju definēšanai un izmantošanai. Šajā prezentācijā apskatīsim dažādus funkciju veidus un to atšķirības.
+
+[h1]:2. Iekšējās funkcijas
+[p]:Iekšējās funkcijas ir funkcijas, kas definētas citā funkcijā. Tās ir pieejamas tikai no iekšējās funkcijas un ne ārpus tās. Iekšējās funkcijas var piekļūt iekšējās funkcijas apkārtējām mainīgajām un parametriem.
+
+[h1]:3. Ārējās funkcijas
+[p]:Ārējās funkcijas ir funkcijas, kas ir definētas ārpus jebkuras citās funkcijās. Tās ir pieejamas no jebkuras vietas programmā, un tām var piekļūt no citām funkcijām un iekšējām funkcijām.
+
+[h1]:4. Nekārtotas funkcijas
+[p]:Nekārtotas funkcijas ir funkcijas, kas netiek saistītas ar kādu objektu. Tās tiek definētas ārpus jebkāda objekta un ir globāli pieejamas programmā. To izsaukšanai var izmantot funkcijas nosaukumu.
+
+[h1]:5. Metodes
+[p]:Metodes ir funkcijas, kas ir saistītas ar objektiem un var tikt izsauktas, izmantojot objekta nosaukumu un punktu. Metodes tiek definētas objekta iekšienē un var piekļūt objekta atribūtiem un citām metodēm.
+
+[h1]:6. Konstruktora funkcijas
+[p]:Konstruktora funkcijas ir funkcijas, kas tiek izmantotas, lai izveidotu jaunas objekta instances. Tās tiek izsauktas ar atslēgas vārdu "new" priekšā, un tām var piekļūt izveidotajam objektam, izmantojot "this" atsauces.
+
+[h1]:7. Kolēģu funkcijas
+[p]:Kolēģu funkcijas ir funkcijas, kas ir definētas vienā līmenī ar citām funkcijām, un tām ir piekļuve tam pašam slēgtajam vidējam. Kolēģu funkcijas var izsaukt tikai no tās pašas funkcijas iekšienes.
+
+[h1]:8. Rekursijas funkcijas
+[p]:Rekursijas funkcijas ir funkcijas, kas izsauc pašas sevi. Tas ir noderīgs, ja jums ir jāatkārto noteikta darbība vairākas reizes ar dažādiem parametriem vai stāvokļiem.
+
+[h1]:9. Callback funkcijas
+[p]:Callback funkcijas ir funkcijas, kas tiek padotas kā arguments citām funkcijām un tiek izsauktas pēc tam, kad noteikta darbība ir pabeigta. Tas nodrošina asinhronu izpildi un atgriezenisko saiti programmas izpildes laikā.

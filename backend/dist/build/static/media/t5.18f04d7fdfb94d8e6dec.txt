@@ -1,0 +1,39 @@
+[h1]:1. IDE vai Browser console
+[p]:IDE (Integrated Development Environment) ir programmēšanas vide, kas nodrošina visu nepieciešamo rīku un funkciju, lai veidotu, testētu un atkļūdotu programmas. Tas ietver kodu redaktoru, kompilatoru vai tolkmētāju, debageri un citas programmēšanas palīgrīkus. IDE piedāvā plašu funkcionalitāti, kas atvieglo programmas izstrādi un palielina produktivitāti.
+
+[h1]:2. IDE priekšrocības
+[p]:IDE piedāvā kodu redaktoru ar dažādām funkcionalitātēm, piemēram, sintakses izcelšanu, automātisku papildināšanu un kodu formatēšanu, kas atvieglo kodēšanu un samazina rakstīšanas kļūdas.
+
+[h1]:3. Browser console priekšrocības
+[p]:Browser console ļauj izpildīt JavaScript kodu tieši pārlūkprogrammā un redzēt rezultātus reāllaikā. Tas ir ērts veids, kā pārbaudīt un eksperimentēt ar kodu.
+
+[h1]:4. IDE piemēri
+[p]:Daži populāri IDE piemēri ir:
+  - Visual Studio Code
+  - IntelliJ IDEA
+  - Eclipse
+  - Xcode
+  - PyCharm
+
+[h1]:5. Browser console izmantošana
+[p]:Lai atvērtu browser console, parasti ir jānospiež F12 taustiņš vai jāizmanto pārlūkprogrammas izvēlnes funkcija "Rīki" > "Attīstības rīki" > "Browser console".
+
+[h1]:6. IDE un browser console kombinācija
+[p]:IDE un browser console var lietot kopā, lai izstrādātu un atkļūdotu tīmekļa vietnes un aplikācijas. IDE ļauj rakstīt un organizēt kodu, bet browser console piedāvā ātro un interaktīvo kodēšanas un atkļūdošanas vidi.
+
+[h1]:7. IDE un browser console ierobežojumi
+[p]:IDE var būt resursu intensīvs un prasīt datora jaudu, īpaši, ja darbojas ar lieliem projektiem vai sarežģītiem rīkiem un paplašinājumiem.
+
+[h1]:8. Kad izmantot IDE?
+[p]:IDE ir noderīgs, ja vēlaties:
+  - Veidot lielas programmas vai projekta kompleksus
+  - Izmantot papildinājumus un rīkus, kas atvieglo programmas izstrādi
+  - Atkļūdot un optimizēt kodu
+  - Veikt sarežģītus procesus, piemēram, testēšanu un izstrādes procesu automatizāciju
+
+[h1]:9. Kad izmantot browser console?
+[p]:Browser console ir noderīgs, ja vēlaties:
+  - Pārbaudīt un eksperimentēt ar JavaScript kodu tieši pārlūkprogrammā
+  - Piekļūt un rediģēt DOM
+  - Pārbaudīt un atklāt kļūdas un problēmas
+  - Veikt ātras izmaiņas un testēšanu tīmekļa vietnē

@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkfrontend=self.webpackChunkfrontend||[]).push([[384],{3384:function(n,r,e){e.r(r),e.d(r,{loadImage:function(){return o}});var o=function(n){return new Promise((function(r,e){var o=new Image;o.onload=function(){return r(o)},o.onerror=e,o.src=n}))}}}]);
+//# sourceMappingURL=384.d065dfc5.chunk.js.map

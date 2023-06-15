@@ -1,0 +1,48 @@
+[h1]:1. Lambda funkcijas (Javascript)
+[p]:Lambda funkcijas ir anonīmas funkcijas Javascript valodā. Tās ir beznosaukuma funkcijas, kas var tikt izmantotas dažādās situācijās, piemēram, kā arguments citām funkcijām, atgriežot vērtības no citām funkcijām vai izpildot kodu noteiktā laikā.
+
+[h1]:2. Lambda funkcijas sintakse
+[p]:Lambda funkcijas sintakse ir īsa un vienkāršota. Šādi izskatās lambda funkcijas definīcija:
+(parametri) => { izteiksmes }
+[parametri] ir ieejas parametru saraksts, kas var būt tukšs vai saturēt vienu vai vairākus parametrus. 
+[izteiksmes] ir viena vai vairākas izteiksmes, kas tiek izpildītas funkcijas izpildes laikā.
+
+[h1]:3. Lambda funkciju izmantošana
+[p]:Lambda funkcijas var izmantot dažādās situācijās, piemēram, kā callback funkcijas, masīva apstrādes funkcijas vai objekta metodes. Šādi izskatās lambda funkcijas izmantošana kā callback funkciju:
+
+arr.forEach((elements, index) => {
+  console.log(`Elements ${elements} at index ${index}`);
+});
+
+[h1]:4. Lambda funkciju īpašības
+[p]:Lambda funkcijām ir vairākas īpašības, kas padara tās noderīgas un elastīgas. Dažas no tām ietver:
+
+Īsāka sintakse nekā tradicionālās funkcijas.
+Automātiska this vērtības norāde, kas atvieglo objektu metožu izmantošanu.
+Iespēja izmantot vienu izteiksmi bez atgriezeniskās vērtības, kas padara tās piemērotas vienreizējas izpildes kodam.
+[h1]:5. Lambda funkciju ierobežojumi
+[p]:Lambda funkcijām ir arī daži ierobežojumi, kas jāņem vērā. Dažas no ierobežojumiem ietver:
+
+Neiespēja izmantot this, arguments vai super iekš lambda funkcijas.
+Neiespēja izmantot new operātoru, tādēļ lambda funkcijas nevar izmantot kā konstruktorus.
+Ierobežota lasīšanas piekļuve ārējiem mainīgajiem, ja tie ir definēti pirms lambda funkcijas izpildes.
+[h1]:6. Lambda funkciju piemēri
+[p]:Lambda funkcijas var izmantot daudzos scenārijos. Šeit ir daži piemēri, kā to var izmantot:
+Filtrēšanas funkcija masīva apstrādei:
+  const evenNumbers = numbers.filter((num) => num % 2 === 0);
+Izpildes aizkave:
+  setTimeout(() => {
+    console.log("Šis teksts tiks izdrukāts pēc 2 sekundēm");
+  }, 2000);
+
+[h1]:7. Lambda funkciju priekšrocības
+[p]:Lambda funkcijas piedāvā dažas priekšrocības salīdzinājumā ar tradicionālajām funkcijām. Dažas no priekšrocībām ir:
+
+Īsāka sintakse un vieglāka lasāmība.
+Elastība un iespēja izmantot tās dažādās situācijās.
+Uzlabota veiktspēja, jo lambda funkcijas tiek optimizētas.
+[h1]:8. Kad izvēlēties lambda funkcijas?
+[p]:Lambda funkcijas ir noderīgas situācijās, kad ir nepieciešama īslaicīga un vienkārša funkcionalitāte, kas neprasa atsevišķu funkcijas definīciju. Tās ir īpaši noderīgas, kad ir nepieciešams izpildīt kodu noteiktā laikā vai izmantot funkciju kā argumentu.
+
+[h1]:9. Lambda funkciju atbalsts pārlūkprogrammās
+[p]:Lambda funkcijas ir plaši atbalstītas modernās pārlūkprogrammās un Javascript vidēs, tostarp Chrome, Firefox, Safari un Node.js. Tomēr, vecāku pārlūkprogrammu versijas un vairākas IE versijas var neatbalstīt lambda funkciju sintaksi un funkcionalitāti. Tādēļ ir svarīgi pārbaudīt mērķa pārlūkprogrammu saderību pirms izmantojat lambda funkcijas.

@@ -1,0 +1,62 @@
+[h1]:1. IF un SWITCH pārbaude (Javascript)
+[p]:IF un SWITCH pārbaude ir divi bieži lietoti nosacījumu pārbaudes mehānismi Javascript programmēšanā. Tie ļauj veikt atšķirīgas darbības, atkarībā no noteiktām nosacījumu izpildes vai vērtību salīdzināšanas rezultāta.
+
+[h1]:2. IF pārbaude
+[p]:IF pārbaude ļauj izpildīt kādu darbību, ja noteikts nosacījums ir patiess (true). Tas ir veids, kā kontrolēt programmas plūsmu atkarībā no konkrētiem apstākļiem.
+
+[h1]:3. IF pārbaudes sintakse
+[p]:IF pārbaude tiek veikta, izmantojot šādu sintaksi:
+if (nosacījums) {
+  // Izpildāmās darbības, ja nosacījums ir patiess
+} else {
+  // Izpildāmās darbības, ja nosacījums nav patiess
+}
+
+[h1]:4. PIEMĒRS: Vienkārša IF pārbaude
+[p]:Piemērs, kas parāda vienkāršu IF pārbaudi un darbības, kas tiek veiktas atkarībā no nosacījuma patiesuma:
+var x = 10;
+if (x > 5) {
+  console.log("Skaitlis ir lielāks par 5");
+} else {
+  console.log("Skaitlis ir mazāks vai vienāds ar 5");
+}
+[h1]:5. SWITCH pārbaude
+[p]:SWITCH pārbaude ļauj izvēlēties darbību, atkarībā no konkrētās vērtības. Tas ir noderīgi, ja ir nepieciešams veikt dažādas darbības, pamatojoties uz mainīgā vērtību.
+
+[h1]:6. SWITCH pārbaudes sintakse
+[p]:SWITCH pārbaude tiek veikta, izmantojot šādu sintaksi:
+switch (izteiksme) {
+  case vērtība1:
+    // Izpildāmās darbības, ja izteiksme ir vērtība1
+    break;
+  case vērtība2:
+    // Izpildāmās darbības, ja izteiksme ir vērtība2
+    break;
+  default:
+    // Izpildāmās darbības, ja izteiksme neatbilst nevienai vērtībai
+}
+
+[h1]:7. PIEMĒRS: SWITCH pārbaude
+[p]:Piemērs, kas parāda SWITCH pārbaudi un darbības, kas tiek veiktas atkarībā no izteiksmes vērtības:
+var day = "Pirmdiena";
+switch (day) {
+  case "Sestdiena":
+  case "Svētdiena":
+    console.log("Brīvdiena");
+    break;
+  case "Pirmdiena":
+  case "Otrdiena":
+  case "Trešdiena":
+  case "Ceturtdiena":
+  case "Piektdiena":
+    console.log("Darbdiena");
+    break;
+  default:
+    console.log("Nepareiza dienas vērtība");
+}
+
+[h1]:8. Kā izvēlēties IF vai SWITCH?
+[p]:Lai izvēlētos starp IF un SWITCH pārbaudēm, ir jāņem vērā uzdevuma raksturs un konkrētie nosacījumi. IF pārbaude ir laba izvēle, ja ir nepieciešams veikt salīdzināšanu ar dažādām vērtībām vai veikt sarežģītāku nosacījumu pārbaudi. SWITCH pārbaude ir noderīga, ja ir nepieciešams veikt vienkāršu salīdzināšanu ar konkrētām vērtībām.
+
+[h1]:9. Secinājums
+[p]:IF un SWITCH pārbaudes ir noderīgi nosacījumu pārbaudes mehānismi Javascript programmēšanā. Izvēloties starp IF un SWITCH, ir svarīgi ņemt vērā uzdevuma raksturu un nosacījumus, lai izvēlētos piemērotāko pārbaudes veidu.

@@ -14,6 +14,7 @@ import SinglePresentation from './routes/singlePresentation/SinglePresentation'
 import Instruction from './routes/instruction/Instruction'
 import Task_1 from './routes/jakTasks/Task_1'
 import Task_2 from './routes/jakTasks/Task_2'
+import Animation from './routes/flappy/Animation';
 
 export const router = createBrowserRouter([
   {
@@ -60,7 +61,10 @@ export const router = createBrowserRouter([
         path: '/uzdevums-2',
         element: <Task_2 />
       },
-
+      {
+        path: '/mpr1-mpr2',
+        element: <Animation />
+      },
       {
         path: '*',
         element: <NotFoundPage />,

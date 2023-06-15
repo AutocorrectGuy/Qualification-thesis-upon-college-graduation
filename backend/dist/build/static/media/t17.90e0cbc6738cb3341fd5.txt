@@ -1,0 +1,47 @@
+[h1]:1. Math, Number klases (Javascript)
+[p]:JavaScript piedāvā dažādas matemātikas un skaitļu klases, kas ļauj veikt dažādas operācijas ar skaitļiem un manipulēt ar matemātiskiem datiem.
+
+[h1]:2. Number klase
+[p]:Number klase ļauj veikt operācijas ar skaitļiem. Dažas no tās metodēm ietver:
+- **Number.parseFloat()**: konvertē teksta vērtību par decimālskaitli.
+- **Number.parseInt()**: konvertē teksta vērtību par veselu skaitli.
+- **Number.isNaN()**: pārbauda, vai vērtība ir NaN (Not-a-Number).
+- **Number.isFinite()**: pārbauda, vai vērtība ir skaitlis un ir galīga.
+
+[h1]:3. Math klase
+[p]:Math klase nodrošina dažādas matemātiskas funkcijas un konstantes. Dažas no tās metožu un konstantu ietver:
+- **Math.abs()**: atgriež absolūto vērtību.
+- **Math.round()**: noapaļo uz tuvāko veselo skaitli.
+- **Math.floor()**: noapaļo uz leju tuvāko veselo skaitli.
+- **Math.ceil()**: noapaļo uz augšu tuvāko veselo skaitli.
+- **Math.max()**: atgriež lielāko no diviem skaitļiem.
+- **Math.min()**: atgriež mazāko no diviem skaitļiem.
+- **Math.random()**: ģenerē nejaušu decimālskaitli no 0 (iekļaujot) līdz 1 (neiekļaujot).
+
+[h1]:4. Skaitļu metodes
+[p]:Skaitļu klases metodes, piemēram, toFixed(), toPrecision() un toString(), ļauj manipulēt ar skaitļu datiem.
+- **toFixed()**: formatē skaitli ar norādīto precizitāti un atgriež rezultātu kā virkni.
+- **toPrecision()**: formatē skaitli ar norādīto precizitāti un atgriež rezultātu kā virkni.
+- **toString()**: konvertē skaitli par virkni, izmantojot norādīto bāzi (piemēram, 2, 8, 10, 16).
+
+[h1]:5. Matemātiskās konstantes
+[p]:Math klase arī nodrošina dažas matemātiskās konstantes, piemēram:
+- **Math.PI**: skaitlis "pi" (π), kas apzīmē apļa apkārtmēru un diametru attiecību.
+- **Math.E**: Eilera skaitlis (e), kas ir nenormalizējama iracionāla skaitļa vērtība.
+
+[h1]:6. Piemēri
+[p]:Lūk, daži piemēri, kā izmantot Math un Number klases funkcionalitāti:
+- Izvadīt lielāko no diviem skaitļiem: `let maxNum = Math.max(10, 5);`
+- Noapaļot skaitli uz tuvāko veselo skaitli: `let roundedNum = Math.round(3.7);`
+- Konvertēt virkni par decimālskaitli: `let floatNum = Number.parseFloat("3.14");`
+
+[h1]:7. Ievērojumi
+[p]:Ir svarīgi atcerēties, ka JavaScript skaitļu operācijas var būt precizitātes problēmas un jāņem vērā aprēķina neprecizitāte ar peldošā punkta skaitļiem.
+
+[h1]:8. Atsauces
+[p]:Uzziniet vairāk par Math un Number klasēm un to metodēm un funkcijām:
+- [MDN web lapas par Math klasi](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math)
+- [MDN web lapas par Number klasi](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)
+
+[h1]:9. Pārskats
+[p]:Šajā prezentācijā mēs aplūkojām Math un Number klases JavaScriptā. Math klase nodrošina matemātiskas funkcijas un konstantes, savukārt Number klase piedāvā operācijas ar skaitļiem un manipulācijas ar skaitļu datiem.

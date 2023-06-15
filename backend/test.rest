@@ -1,5 +1,5 @@
 ###
-# Create a new note
+# Create a new presentation
 POST http://localhost:3001/api/presentations
 Content-Type: application/json
 

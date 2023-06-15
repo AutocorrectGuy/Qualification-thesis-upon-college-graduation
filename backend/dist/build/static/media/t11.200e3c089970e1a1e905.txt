@@ -1,0 +1,56 @@
+[h1]:1. Rekursija (Javascript)
+[p]:Rekursija ir programmu konstrukcija, kas ļauj funkcijām izsaukt pašas sevi. Tas ir noderīgs risinājumā, kad uzdevums var tikt sadalīts mazākos, līdzīgos apakšuzdevumos, kas var tikt atrisināti ar vienādiem algoritmiem.
+
+[h1]:2. Bāzes gadījums
+[p]:Rekursijas pamatā ir bāzes gadījums, kas definē beigu nosacījumu. Kad sasniedzam bāzes gadījumu, rekursija apstājas un atgriež rezultātu.
+
+[h1]:3. Rekursijas izsaukums
+[p]:Rekursijas funkcija izsauc pašu sevi, bet ar samazinātiem ievades datiem vai mainīgajiem, kas ir tuvāki bāzes gadījumam. Tas nodrošina rekursijas atkārtošanos līdz bāzes gadījumam ir sasniegts.
+
+[h1]:4. Rekursijas piemērs
+[p]:Šeit ir piemērs rekursīvas funkcijas izmantošanai, lai aprēķinātu faktoriālu Javascript valodā:
+function factorial(n) {
+  // Bāzes gadījums
+  if (n === 0) {
+    return 1;
+  }
+  
+  // Rekursijas izsaukums
+  return n * factorial(n - 1);
+}
+console.log(factorial(5)); // Izvade: 120
+
+[h1]:5. Rekursijas priekšrocības
+[p]:Rekursijas izmantošana var būt noderīga dažādos veidos:
+Atvieglo sarežģītu problēmu risināšanu, sadalot to mazākos apakšproblēmos.
+Ļauj izveidot kodu, kas ir īsāks un vieglāk lasāms.
+Veicina kodu atkārtojamību, jo funkcija izsaucas pašas sevī.
+
+[h1]:6. Rekursijas ierobežojumi
+[p]:Rekursija var būt resursietilpīga un radīt bezgalīgu ciklu, ja netiek pareizi izmantota. Lai izvairītos no problēmām, ir jānodrošina, ka rekursijas funkcija vienmēr sasniedz bāzes gadījumu un nebeidzas bezgalīgā ciklā.
+
+[h1]:7. Coda piemērs ar rekursiju
+[p]:Piemērs, kā izmantot rekursiju, lai apstrādātu apakšmapes Javascript valodā:
+function processFolder(folder) {
+  console.log("Apstrādā mapi: " + folder.name);
+  folder.subfolders.forEach(function(subfolder) {
+    processFolder(subfolder); // Rekursīvs izsaukums apstrādei
+  });
+}
+var mainFolder = {
+  name: "Galvenā mape",
+  subfolders: [
+    { name: "Apakšmape 1", subfolders: [] },
+    { name: "Apakšmape 2", subfolders: [
+        { name: "Apakšmape 2.1", subfolders: [] }
+      ]
+    }
+  ]
+};
+processFolder(mainFolder);
+
+[h1]:8. Rekursija pret iterāciju
+[p]:Rekursiju un iterāciju var izmantot, lai atrisinātu dažādas problēmas. Abas pieejas ir noderīgas, taču ir jāizvēlas atbilstošākā metode atkarībā no uzdevuma rakstura un prasībām.
+
+[h1]:9. Rekursijas atbildes atgriešana
+[p]:Rekursijas funkcija var atgriezt rezultātu vai modifikēt ievades datus pa tiešo. Rezultātu var atgriezt arī caur funkcijas izsaukumu, izmantojot atgrieztās vērtības pārnesi.
